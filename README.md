@@ -4,7 +4,7 @@
 ![Dotbase Logo](https://i.imgur.com/UgGWBt5.png)
 **Create agent-based workforces with drag-and-drop simplicity**
 
-[Website](https://dotbase.ai) • [Documentation](https://docs.dotbase.ai) • [Examples](https://dotbase.ai/examples) 
+[Website](https://dotbase.ai) • [Documentation](https://docs.dotbase.ai) • [Examples](https://dotbase.ai/examples)
 
 </div>
 
@@ -16,13 +16,32 @@ Dotbase is a powerful low-code platform that transforms how you build AI agent w
 
 ## ✨ Key Features
 
-- 🎯 **Visual Agent Design**: Drag-and-drop interface for workforce creation
-- 🔄 **Autogen Integration**: Built on Microsoft's Autogen framework
-- 🐍 **Python Export**: Generate production-ready Python code
-- 🛠️ **Custom Functions**: Add custom tools and capabilities
-- 🤝 **Multi-Agent Support**: Create collaborative agent networks
+### 🎨 **Visual Development**
+- **Drag-and-Drop Interface**: Effortlessly design complex multi-agent workflows with an intuitive UI.
+- **Interactive Canvas**: Organize agents, set connections, and define logic in a visual environment.
+- **No-Code Logic Configuration**: Modify agent behaviors, triggers, and responses without writing a single line of code.
 
-## 🏗️ Architecture
+### 🔳 **Code Export**
+- **Production-Ready Python Code**: Automatically convert visual workflows into executable Python scripts.
+- **Autogen-Based Agent Framework**: Ensure seamless compatibility with Microsoft’s Autogen library.
+- **Editable and Extendable**: Modify exported scripts for additional customization.
+
+### 🛠️ **Custom Integration**
+- **Support for External APIs**: Connect agents to third-party tools, databases, and cloud services.
+- **Custom Functions**: Extend agent capabilities with Python functions and NovaMind Assistant API.
+- **Modular Plugin Support**: Easily integrate additional tools for domain-specific tasks.
+
+### 📊 **Real-time Testing & Debugging**
+- **Live Execution Preview**: Run workflows in real time and observe agent interactions.
+- **Event Logging & Monitoring**: Track agent performance, interactions, and message exchanges.
+- **Error Handling & Debugging**: Identify issues and optimize workflow efficiency.
+
+### 🔒 **Enterprise Security**
+- **Bank-Grade Encryption**: Ensure data privacy with industry-standard encryption techniques.
+- **Access Control & Permissions**: Define user roles and restrict access to sensitive operations.
+- **Secure API Communication**: Implement secure authentication and encrypted data transfers.
+
+## 🏰 Architecture
 
 ### Agents
 
@@ -79,17 +98,18 @@ python your_workforce.py
    ```
 3. Run your exported script
 
-
 ## 📄 License
 
 [MIT License](LICENSE)
 
-## 🆘 Support
+## 🌟 Support
 
 - Documentation: [docs.dotbase.ai](https://docs.dotbase.ai)
 - Site: enterprise@dotbase.ai
+
 ---
 
 <div align="center">
 Made with ❤️ by Dotbase Team
 </div>
+
