@@ -1,0 +1,65 @@
+.react-flow__controls {
+  background: #252525;
+  border-radius: 6px;
+  border: 1px solid #333333;
+}
+
+.react-flow__controls-button {
+  background: #252525;
+  border-bottom: 1px solid #333333;
+  fill: #666666;
+  padding: 4px;
+}
+
+.react-flow__controls-button:hover {
+  background: #333333;
+  fill: #ffffff;
+}
+
+.react-flow__controls-button:last-child {
+  border-bottom: none;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+  border: 1px solid #333333;
+  background: #252525;
+}
+
+.react-flow__handle {
+  background: #333333;
+  border: 2px solid #666666;
+  width: 8px;
+  height: 8px;
+}
+
+.react-flow__handle:hover {
+  background: #666666;
+}
+
+.react-flow__edge-path {
+  stroke: #666666;
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+}
+
+.react-flow__controls button {
+  background: #252525;
+  border-bottom: 1px solid #333333;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  user-select: none;
+  padding: 5px;
+}
+
+.react-flow__controls button:hover {
+  background: #333333;
+}
