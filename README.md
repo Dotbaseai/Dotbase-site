@@ -4,7 +4,7 @@
 ![Dotbase Logo](https://i.imgur.com/UgGWBt5.png)
 **Create agent-based workforces with drag-and-drop simplicity**
 
-[Website](https://dotbase.ai) • [Documentation](https://docs.dotbase.ai) • [Examples](https://dotbase.ai/examples)
+[Website](https://dotbase.ai) • [Documentation](https://dotbase.gitbook.io/dotbase)
 
 </div>
 
@@ -49,14 +49,14 @@ Our Autogen-based system supports four core components:
 
 | Agent Type | Description |
 |------------|-------------|
-| `AssistantAgent` | Configurable AI agents with custom system prompts |
-| `GPTAssistantAgent` | OpenAI Assistant API integration with custom function support |
-| `UserProxy` | Human-agent interaction interface |
-| `GroupChat` | Multi-agent collaboration hub |
+| `Nexus` | Configurable AI agents with custom system prompts |
+| `Lumina` | OpenAI Assistant API integration with custom function support |
+| `Bridge` | Human-agent interaction interface |
+| `Hub` | Multi-agent collaboration hub |
 
 ### Tools
 
-`CustomFunction`
+`Spark`
 - Integrate Python functions
 - Connect OpenAI Assistant functions
 - Add custom capabilities
@@ -73,8 +73,8 @@ graph LR
 ```
 
 - **Add**: Drag components from Library Panel
-- **Connect**: Green handles indicate compatible connections
-- **Delete**: Right-click for context menu
+- **Connect**: handles indicate compatible connections
+- **Delete**: Press del / back-space key 
 
 ## 🚀 Deployment
 
@@ -85,7 +85,7 @@ graph LR
 pip install pyautogen
 
 # Run exported script
-python your_workforce.py
+python dotflow.py
 ```
 
 ### Replit Deployment
@@ -104,8 +104,7 @@ python your_workforce.py
 
 ## 🌟 Support
 
-- Documentation: [docs.dotbase.ai](https://docs.dotbase.ai)
-- Site: enterprise@dotbase.ai
+- Documentation: [docs.dotbase.ai](https://dotbase.gitbook.io/dotbase)
 
 ---
 
