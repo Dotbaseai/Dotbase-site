@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect } from "react";
 import { usePrivy } from "@privy-io/react-auth";
 import { useRouter } from 'next/navigation';
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import img1 from "@/public/assets/images/Dashboard.png";
 import { FlipWords } from "@/components/ui/animations/flip-words";
 import { ContainerScroll } from "@/components/ui/animations/container-scroll-animation";
 import { HoverBorderGradient } from "@/components/ui/animations/hover-border-gradient";
-import axios from "axios";
+// import axios from "axios";
 // import { cn } from "@/lib/utils";
 // import { TypingAnimation } from "@/components/ui/animations/typing-animation";
 // import { InteractiveGridPattern } from "@/components/ui/animations/interactive-grid-pattern";
@@ -22,29 +22,29 @@ export default function HeroSection() {
   const words = ["Smarter Workflows", "Seamless Processes", "Optimized Systems"];
 
 
-  const [CA, setCA] = useState("");
-  const [isCopied, setIsCopied] = useState<boolean>(false);
-  useEffect(() => {
-    axios.get("https://catools.dev3vds1.link/get/almaze-labs")
-      .then(response => {
-        const data = response.data
-        if (data) {
-          // console.log(`this is the data addr : ${data.address}`)
-          setCA(data.address);
+  // const [CA, setCA] = useState("");
+  // const [isCopied, setIsCopied] = useState<boolean>(false);
+  // useEffect(() => {
+  //   axios.get("https://catools.dev3vds1.link/get/almaze-labs")
+  //     .then(response => {
+  //       const data = response.data
+  //       if (data) {
+  //         // console.log(`this is the data addr : ${data.address}`)
+  //         setCA(data.address);
 
-        }
-      })
-      .catch(error => {
-        console.error("Error fetching CA:", error);
-      });
-  }, []);
-  useEffect(() => {
-    if (isCopied) {
-      setTimeout(() => {
-        setIsCopied(false);
-      }, 3000);
-    }
-  });
+  //       }
+  //     })
+  //     .catch(error => {
+  //       console.error("Error fetching CA:", error);
+  //     });
+  // }, []);
+  // useEffect(() => {
+  //   if (isCopied) {
+  //     setTimeout(() => {
+  //       setIsCopied(false);
+  //     }, 3000);
+  //   }
+  // });
   
 
   useEffect(() => {
@@ -76,7 +76,7 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-10 mx-auto container max-w-[1128px] px-8 flex flex-col items-center">
-        <motion.div
+        {/* <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.25 }}
@@ -128,7 +128,7 @@ export default function HeroSection() {
                 </defs>
               </svg>
           </HoverBorderGradient>
-        </motion.div>
+        </motion.div> */}
         
         <ContainerScroll
           titleComponent={
